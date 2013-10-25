@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install Node
 yum -y update
 yum -y install --enablerepo=epel npm

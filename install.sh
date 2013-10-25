@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bash -l
 # Install Node
-yum -y update
+# yum -y update 
 yum -y install --enablerepo=epel npm
 
 # Run the app

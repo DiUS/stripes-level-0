@@ -61,6 +61,6 @@ if (process.argv.length > 2) {
   console.log("Starting server on UNIX socket " + socket);
   app.listen(socket);
 } else {
-  console.log("Starting server at http://localhost:3000/");
-  app.listen(3000);
+  console.log("Starting server at http://localhost:80/");
+  app.listen(80);
 }
